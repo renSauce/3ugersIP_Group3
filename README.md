@@ -3,7 +3,7 @@
 Avalonia desktop app that lets operators manage customers and orders while driving a UR robot arm to sort colour-coded blocks for each customer. Orders are stored in SQLite, secured by salted+hashed credentials, and dispatched to the robot as URScript jobs.
 
 ## Important Notes
-- **Remove the seeded `admin` account and default password before deploying to production.**
+- **Remove the seeded `admin` user and default password before deploying to production.**
 - **Always retrain the robot camera when introducing new block colours or products.**
 
 ## Key Features
