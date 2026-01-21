@@ -1,6 +1,7 @@
 # 3Ugers Industrial Programming
 
-Avalonia desktop app that lets operators manage customers and orders by a UR robot arm to sort colour-coded blocks for each customer. Orders are stored in SQLite, secured by salted+hashed credentials, and dispatched to the robot as URScript jobs.
+## Program description
+Industrial Programming – Group 3. A C#/Avalonia desktop app that connects to an E-series UR robot arm with onRobot camera outline detection, conyeor belt and sensors for the purpose to manage customers orders stored in SQLite by sorting products to the right customer.
 
 ## Important Notes
 - **Remove the seeded `admin` user and default password before deploying to production.**
